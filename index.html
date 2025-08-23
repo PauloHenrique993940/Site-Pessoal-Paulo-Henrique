@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio • Paulo – Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <!-- Google Fonts (estilo quadrinhos) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&family=Inter:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="nav" aria-label="Navegação principal">
+        <div class="wrap">
+            <div class="brand" aria-label="Marca">
+                <div class="brand-logo" aria-hidden="true"></div>
+                <h1>Front-End</h1>
+            </div>
+            <div class="spacer"></div>
+            <a class="link" href="#projetos">Projetos</a>
+            <a class="link" href="#sobre">Sobre</a>
+            <a class="link" href="#contato">Contato</a>
+            <label class="toggle" title="Alternar modo Noir (alto contraste)">
+                <span>NOIR</span>
+                <input id="noirToggle" type="checkbox" aria-label="Ativar modo noir" />
+            </label>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="bubble" role="img" aria-label="Balão de fala de apresentação">
+            <h2>Olá! Eu sou o Paulo,<br /> seu herói do Front‑End!</h2>
+            <p>Transformo ideias em interfaces de alto desempenho, acessíveis e marcantes, com um estilo único que
+                mistura tecnologia e narrativa visual.</p>
+        </div>
+        <div class="hero-card">
+            <div class="dots" aria-hidden="true"></div>
+            <div class="onomato" aria-hidden>POW!</div>
+            <p style="margin:0 0 10px">Stack principal:</p>
+            <div class="stack">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+            </div>
+            <div class="cta">
+                <a class="btn" href="#projetos">Ver Projetos</a>
+                <a class="btn secondary" href="#contato">Fale Comigo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+        <h3>Capítulo 1: Meus Projetos</h3>
+        <p class="lead">Uma coleção em painéis, cada um com sua própria aventura.</p>
+
+        <div class="grid">
+            <!-- Painel 1 -->
+            <article class="panel large reveal" tabindex="0" aria-label="Projeto 1 - Dashboard Heróico">
+                <div class="thumb" style="background-image:linear-gradient(135deg,#243042,#0f1726); color:#fff">
+                    <img src="./src/images/dashHeroico.png" alt="">
+                    <span>Dashboard Heróico</span>
+                </div>
+                <div class="content">
+                    <h3>Descubra meus super golpes no Front-End!</h3>
+                    <p>Aplicativo de métricas com dashboards dinâmicos e acessibilidade total.</p>
+
+                    <div class="chips">
+                        <span class="chip">HTLM5</span>
+                        <span class="chip">CSS3</span>
+                        <span class="chip">JavaScript</span>
+                    </div>
+                    <div class="actions">
+                        <a class="btn" href="https://dash-board-heroi.vercel.app/">Prévia</a>
+                        <a class="btn secondary" target="_blank" rel="noopener"
+                            href="https://github.com/PauloHenrique993940/DashBoardHeroi.git">Código</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Painel 2 -->
+            <article class="panel reveal" tabindex="0" aria-label="Projeto 2 - Loja HQ">
+                <div class="thumb">
+                    <img src="./src/images/soverteria1.png" alt="">
+                    <span>SoVerteria</span>
+                </div>
+                <div class="content">
+
+                    <p>E-commerce completo com carrinho de compras, cardápio interativo, checkout com simulação de
+                        pagamentos, desempenho ultrarrápido e responsividade total em todos os dispositivos.</p>
+
+                    <div class="chips">
+                        <span class="chip">HTML</span>
+                        <span class="chip">CSS</span>
+                        <span class="chip">Vanilha JS</span>
+                    </div>
+                    <div class="actions">
+                        <a class="btn" href="#" data-open="modal2">Prévia</a>
+                        <a class="btn secondary" target="_blank" rel="noopener" href="https://github.com/">Código</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Painel 3 -->
+            <article class="panel reveal" tabindex="0" aria-label="Projeto 3 - Pokedex 2.0">
+                <div class="thumb">
+                    <img src="./src/images/projetos/pokedex.png" alt="Pokedex Imagen">
+                    <span>Pokédex 1.0</span>
+                </div>
+                <div class="content">
+
+                    <p>Busca e detalhes com cache local, filtro de pesquisa por nome, descrição de tipo do pokemon.</p>
+                    <div class="chips">
+                        <span class="chip">Acessibilidade</span>
+                        <span class="chip">Responsividade</span>
+                        <span class="chip">🚀 Layout Ultra Moderno</span>
+
+                    </div>
+                    <div class="actions">
+                        <a class="btn" href="https://pokedex-rho-hazel.vercel.app/">Prévia</a>
+                        <a class="btn secondary" target="_blank" rel="noopener" href="https://github.com/PauloHenrique993940/Pokedex.git">Código</a>
+                    </div>
+                </div>
+            </article>
+            <article class="panel reveal" tabindex="0" aria-label="Projeto 4 - Pokedex 2.0">
+                <div class="thumb">
+                    <img src="./src/images/projetos/comic.png" alt="">
+                    <span>Comic Dash</span>
+                </div>
+                <div class="content">
+
+                    <p>
+                        Entre na corrida eletrizante do <strong>Comic Dash</strong>!
+                        Um jogo em estilo de história em quadrinhos, cheio de ação,
+                        cores vibrantes e desafios rápidos. 🕹️
+                        Teste seus reflexos, supere obstáculos e mergulhe em uma experiência
+                        visual única ! ⚡
+                    </p>
+                    <div class="chips">
+                        <span class="chip">Interativo</span>
+                        <span class="chip">Responsividade</span>
+                        <span class="chip">🚀 Desafios Rápidos</span>
+
+                    </div>
+                    <div class="actions">
+                        <a class="btn" href="#">Prévia</a>
+                        <a class="btn secondary" target="_blank" rel="noopener" href="https://github.com/">Código</a>
+                    </div>
+                </div>
+            </article>
+            <article class="panel reveal" tabindex="0" aria-label="Projeto 3 - Pokedex 2.0">
+                <div class="thumb">
+                    <img src="./src/images/projetos/gameBug.png" alt="Game Bug">
+                    <span>Game Bug</span>
+                </div>
+                <div class="content">
+
+                    <p>
+                        Criei o jogo Matador de Bugs, um arcade interativo feito em JavaScript.
+                        O jogador deve clicar ou tocar nos bugs antes que eles escapem da tela.
+                        Cada bug acertado gera pontos, e o jogo aumenta de dificuldade com o tempo.
+                        O projeto explora DOM, canvas, animações e lógica de jogo, mostrando minhas habilidades em
+                        Front-End.
+                    </p>
+                    <div class="chips">
+                        <span class="chip">Interativo</span>
+                        <span class="chip">Lógica</span>
+                        <span class="chip">DOM</span>
+
+                    </div>
+                    <div class="actions">
+                        <a class="btn" href="https://game-bug.vercel.app/">Prévia</a>
+                        <a class="btn secondary" target="_blank" rel="noopener" href="https://github.com/PauloHenrique993940/GameBug.git">Código</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Painel 4 -->
+            <article class="panel reveal" tabindex="0" aria-label="Projeto 4 - Portfólio Minimal">
+                <div class="thumb">
+                    <img src="./src/images/projetos/adivogados.png" alt="">
+                    <span>Site adivogados</span>
+                </div>
+                <div class="content">
+                    <p>Site estático ultrarrápido para Adivogados</p>
+                    <div class="chips">
+                        <span class="chip">HTML</span>
+                        <span class="chip">CSS</span>
+                        <span class="chip">Vanilla JS</span>
+                    </div>
+                    <div class="actions">
+                        <a class="btn" href="https://advocacia-kappa.vercel.app/">Prévia</a>
+                        <a class="btn secondary" target="_blank" rel="noopener"
+                            href="https://github.com/PauloHenrique993940/Advocacia.git">Código</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- TIMELINE / TIRINHAS -->
+    <section class="section">
+        <h3>Capítulo 2: A Jornada</h3>
+        <p class="lead">Do primeiro commit ao deploy épico.</p>
+        <div class="timeline">
+            <div class="strip">
+                <div class="frame reveal">
+                    <span class="caption">2019</span>
+                    <p class="speech">Descobri que CSS também é superpoder.</p>
+                </div>
+                <div class="frame reveal">
+                    <span class="caption">2021</span>
+                    <p class="speech">Primeira SPA com roteamento e lazy load.</p>
+                </div>
+            </div>
+            <div class="strip">
+                <div class="frame reveal">
+                    <span class="caption">2023</span>
+                    <p class="speech">Acessibilidade by default: teclado primeiro!</p>
+                </div>
+                <div class="frame reveal">
+                    <span class="caption">2025</span>
+                    <p class="speech">Primeiro Portifólio Front-End em JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE / HABILIDADES -->
+    <section id="sobre" class="section">
+        <h3>Capítulo 3: Quem Sou</h3>
+        <div class="about">
+            <div class="card reveal">
+                <h4 style="margin:0 0 10px">Sobre mim</h4>
+                <p style="text-align: justify;">✨ "Meu interesse pelo desenvolvimento Front-End nasceu da vontade de
+                    transformar ideias em experiências visuais que encantam.
+                    Sempre gostei de design e tecnologia, e descobri que no Front-End eu poderia unir criatividade e
+                    lógica para criar interfaces
+                    interativas, acessíveis e envolventes. O que mais me motiva é ver uma página ganhar vida com
+                    animações, cores e usabilidade
+                    pensada para o usuário final. Para mim, cada projeto é uma oportunidade de contar uma história e
+                    entregar valor real por meio
+                    do código."
+                </p>
+                <p>Localizado em Salvador‑BA, disponível para remoto e híbrido.</p>
+            </div>
+            <div class="card reveal">
+                <h4 style="margin:0 0 10px">Poderes (Skills)</h4>
+                <div class="skills">
+                    <div>
+                        <div class="bar">
+                            <div class="fill" data-level="95"></div>
+                        </div>
+                        <div class="label">React / Next.js</div>
+                    </div>
+                    <div>
+                        <div class="bar">
+                            <div class="fill" data-level="92"></div>
+                        </div>
+                        <div class="label">TypeScript</div>
+                    </div>
+                    <div>
+                        <div class="bar">
+                            <div class="fill" data-level="90"></div>
+                        </div>
+                        <div class="label">CSS (Grid/Flex/Anim)</div>
+                    </div>
+                    <div>
+                        <div class="bar">
+                            <div class="fill" data-level="86"></div>
+                        </div>
+                        <div class="label">Acessibilidade (WAI‑ARIA)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+        <h3>Capítulo 4: Vamos Conversar</h3>
+        <div class="contact">
+            <div class="speech-bubble reveal">
+                <h4 style="margin:0 0 8px">Envie uma mensagem</h4>
+                <p>Quer discutir um projeto, freela ou vaga? Fico feliz em saber seu desafio!</p>
+            </div>
+
+            <!-- Formulário -->
+            <form class="card reveal" id="contactForm" aria-label="Formulário de contato">
+                <label>
+                    <span style="display:block; font-weight:800; margin-bottom:6px">Nome</span>
+                    <input class="input" name="name" placeholder="Seu nome" required />
+                </label>
+                <label>
+                    <span style="display:block; font-weight:800; margin-bottom:6px">Email</span>
+                    <input class="input" type="email" name="email" placeholder="voce@email.com" required />
+                </label>
+                <label>
+                    <span style="display:block; font-weight:800; margin-bottom:6px">Mensagem</span>
+                    <textarea class="input" name="message" placeholder="Conte-me sobre a missão" required></textarea>
+                </label>
+                <button class="btn" type="submit">Enviar</button>
+                <small style="color:var(--muted)">
+                    Sem backend? Usamos <code>mailto:</code> como fallback automático.
+                </small>
+            </form>
+
+            <!-- Botões de Contato Direto -->
+            <div class="reveal" style="margin-top:2rem; text-align:center;">
+                <a href="mailto:seu.email@exemplo.com" class="btn"
+                    style="background:#000; color:#fff; padding:0.75rem 1.5rem; border-radius:8px; margin:0 10px; display:inline-flex; align-items:center; gap:8px;">
+                    <i class="fas fa-envelope"></i> Enviar E-mail
+                </a>
+
+                <a href="https://wa.me/5511999999999" target="_blank" class="btn"
+                    style="background:#25D366; color:#fff; padding:0.75rem 1.5rem; border-radius:8px; margin:0 10px; display:inline-flex; align-items:center; gap:8px;">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Paulo Henrique Desenvolvedor Front-End</p>
+        <p>paulohenriqueferreirafranca2@gmail.com</p>
+    </footer>
+
+    <!-- -------- MODAIS DE PRÉVIA -------- -->
+    <div id="modal1" class="modal" hidden>
+        <div class="modal-inner" role="dialog" aria-modal="true" aria-label="Prévia Dashboard Heróico">
+            <button class="modal-close" aria-label="Fechar">×</button>
+            <img alt="Preview 1" src="https://picsum.photos/1280/720?random=1" />
+        </div>
+    </div>
+    <div id="modal2" class="modal" hidden>
+        <div class="modal-inner" role="dialog" aria-modal="true" aria-label="Prévia Loja HQ">
+            <button class="modal-close" aria-label="Fechar">×</button>
+            <img alt="Preview 2" src="https://picsum.photos/1280/720?random=2" />
+        </div>
+    </div>
+    <div id="modal3" class="modal" hidden>
+        <div class="modal-inner" role="dialog" aria-modal="true" aria-label="Prévia Pokédex 2.0">
+            <button class="modal-close" aria-label="Fechar">×</button>
+            <img alt="Preview 3" src="https://picsum.photos/1280/720?random=3" />
+        </div>
+    </div>
+    <div id="modal4" class="modal" hidden>
+        <div class="modal-inner" role="dialog" aria-modal="true" aria-label="Prévia Portfolio Minimal">
+            <button class="modal-close" aria-label="Fechar">×</button>
+            <img alt="Preview 4" src="https://picsum.photos/1280/720?random=4" />
+        </div>
+    </div>
+
+
+
+    <script src="./src/js/script.js"></script>
+
+
+</body>
+
+</html>
